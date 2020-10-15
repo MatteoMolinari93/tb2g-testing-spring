@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 public class YannyConfig {
 
 	@Bean
-	HearingInterpreter hearingInterpreter(WordProducer wordProducer) {
-		return new HearingInterpreter(wordProducer);
+	YannyWordProducer laurelWordProducer() {
+		return new YannyWordProducer();
 	}
 	
 }

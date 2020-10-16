@@ -10,7 +10,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = {BaseConfig.class, LaurelConfig.class})
-public class HearingInterpreterTest {
+public class LaurelHearingInterpreterTest {
 	
 	@Autowired
 	HearingInterpreter hearingInterpreter;

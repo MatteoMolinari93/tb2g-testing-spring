@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class YannyConfig {
 
 	@Bean
-	YannyWordProducer laurelWordProducer() {
+	YannyWordProducer yannyWordProducer() {
 		return new YannyWordProducer();
 	}
 	
